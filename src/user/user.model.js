@@ -10,7 +10,7 @@ active: { type: Boolean, default: true },
 role: { 
     type: String, 
     required: true, 
-    enum:['client', 'deliveryman', 'restaurant', 'administrator'],
+    enum:['client', 'deliveryman', 'restaurant',],
     default: "client",
 },
 },
