@@ -4,7 +4,6 @@ const orderSchema = new Schema(
   {
     user_id: { type: String, required: true,},
     restaurant_id: { type: String, required: true },
-    date: { type: Date, required: true },
     state: {
       type: String,
       required: true,
