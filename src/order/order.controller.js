@@ -43,7 +43,7 @@ export async function searchOrder(req, res) {
   }
 }
 
-export async function getOrdersSent(req, res) {
+export async function getOrderSent(req, res) {
   try {
     const document = await ordersModel.find({
       active: true,

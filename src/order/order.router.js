@@ -14,7 +14,7 @@ const orderRouter = Router();
 orderRouter.post('/', createOrder);
 orderRouter.get('/:_id', readOrder);
 orderRouter.get('/', searchOrder);
-orderRouter.get('/sended/', getOrderssended);
+orderRouter.get('/sended/', getOrderSent);
 orderRouter.patch('/:_id', updateOrder);
 orderRouter.delete('/:_id', deleteOrder);
 
