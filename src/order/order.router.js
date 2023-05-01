@@ -6,7 +6,7 @@ import {
   readOrder,
   searchOrder,
   updateOrder,
-  getOrderssended,
+  getOrderSent,
 } from './order.controller';
 
 const orderRouter = Router();
@@ -14,7 +14,7 @@ const orderRouter = Router();
 orderRouter.post('/', createOrder);
 orderRouter.get('/:_id', readOrder);
 orderRouter.get('/', searchOrder);
-orderRouter.get('/sended/', getOrderSent);
+orderRouter.get('/sent', getOrderSent);
 orderRouter.patch('/:_id', updateOrder);
 orderRouter.delete('/:_id', deleteOrder);
 
