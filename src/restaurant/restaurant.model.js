@@ -15,7 +15,7 @@ const restaurantSchema = new Schema(
       },
     },
     inventory: { type: Array, required: false },
-    active: Boolean,
+    active:{ type: Boolean, default: true },
   },
   {
     timestamps: true,

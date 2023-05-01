@@ -7,7 +7,7 @@ const productSchema = new Schema(
     name: { type: String, required: true },
     description: { type: String, required: true },
     price: { type: Number, required: true },
-    active: Boolean,
+    active:{ type: Boolean, default: true },
   },
   {
     timestamps: true,
